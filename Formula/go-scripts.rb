@@ -8,7 +8,8 @@ class GoScripts < Formula
   depends_on "go" => :build
 
   def install
-    system "go", "build", *std_go_args(ldflags: "-s -w"), "-o", bin/"ec2-compliance-report", "./cmd/ec2-compliance-report/..."
+    system "go", "build", *std_go_args(ldflags: "-s -w"), "-o",
+           bin/"ec2-compliance-report", "./cmd/ec2-compliance-report/..."
   end
 
   test do
