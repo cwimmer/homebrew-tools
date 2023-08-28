@@ -1,4 +1,4 @@
-# Cwimmer Tools
+# Tools
 
 ## How do I install these formulae?
 
